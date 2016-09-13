@@ -8,6 +8,7 @@ body{
   font-family
 }
 header, footer, aside, .main{
+  margin: 0;
   padding: 1em;
 }
 header, footer{
@@ -33,7 +34,8 @@ img{
 }
 
 @media(max-width:600px){
-  .main{
-    background:red;
-  }
-}
+  .Header {}
+  .Main{}
+  .Aside{}
+  .Aside{}
+  .Footer{}
